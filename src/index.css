@@ -67,3 +67,7 @@ body {
   border: none;
   cursor: pointer;
 }
+body[data-theme="dark"] .form button {
+  background-color: white;
+  color: blue; 
+}
