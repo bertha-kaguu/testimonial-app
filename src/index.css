@@ -1,19 +1,14 @@
 :root {
-  --bg-color: #f5f6fa;
-  --text-color: #111;
-  --card-bg: #fff;
-}
-
-[data-theme="dark"] {
-  --bg-color: #111;
-  --text-color: #f5f6fa;
-  --card-bg: #333;
+  --primary-color: #111;
+  --secondary-color: #f5f6fa;
+  --text-color: #555;
+  --border-color: #ccc;
+  --border-radius: 8px;
 }
 
 body {
   font-family: "Segoe UI", sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background: #f5f6fa;
   padding: 40px 20px;
 }
 
@@ -65,14 +60,4 @@ body {
   border-radius: 8px;
   border: none;
   cursor: pointer;
-}
-#theme-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 8px;
 }
